@@ -15,8 +15,13 @@ passlength = prompt ("how long would you like your password? Please choose 8-20 
 if (passlength < 8 || passlength > 20) {
   return "Valid entry needed.";
 } else {
-   alert("Your goldenpass will be" + passlength + "long." );
+   alert("Your goldenpass will be" + passlength + "long.");
   }
+
+  
+
+
+
 }
 
 
