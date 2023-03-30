@@ -18,8 +18,33 @@ if (passlength < 8 || passlength > 20) {
    alert("Your goldenpass will be" + passlength + "long.");
   }
 
-  
+  uppercase = confirm("Uppercase character ok?");
+  if (uppercase) {
+    alert("Password will include uppercase.")
+  } else {
+    alert("password WON'T include uppercase.");
+  }
 
+  lowercase = confirm("lowercase character ok?");
+  if (lowercase) {
+    alert("Password will include lowercase.")
+  } else {
+    alert("password WON'T include lowercase.");
+  }
+
+  numbers = confirm("numbers ok?");
+  if (numbers) {
+    alert("Password will include numbers.")
+  } else {
+    alert("password WON'T include numbers.");
+  }
+
+  characters = confirm("characters ok?");
+  if (characters) {
+    alert("Password will include characters.")
+  } else {
+    alert("password WON'T include characters.");
+  }
 
 
 }
