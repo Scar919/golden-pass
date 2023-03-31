@@ -13,8 +13,8 @@ var length = [];
 
 
 //prompt asking user for pass length and validate their responses
-passlength = prompt ("how long would you like your password? Please choose 8-20 characters.")
-if (passlength < 8 || passlength > 20) {
+passlength = prompt ("how long would you like your password? Please choose 8-128 characters.")
+if (passlength < 8 || passlength > 128) {
   return "Valid entry needed.";
 } else {
    alert("Your password will be" + passlength + "characters long.");
