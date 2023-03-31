@@ -8,6 +8,7 @@ Git Hub
 
 The motivation behind this project was allow for better way to create passwords. With a password generator, one would spend less time having to come up with password and would have a place to easily and efficiently retrieve randomized passwords. This is meant to help users take the stress out of creating passwords that meet all qualifications by simply following the prompts that are asked.
 
+https://scar919.github.io/golden-pass/
 
 ## Usage 
 
